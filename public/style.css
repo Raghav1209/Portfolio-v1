@@ -1,0 +1,261 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+h1,h2{
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+
+.cardItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCard{
+    padding: 1%;
+    margin: 11% 4%;
+    width: 25rem;
+    border-radius: 24px;
+    box-shadow:  0 8px 10px 0 rgba(10, 10, 10, 0.2), 0 6px 20px 0 rgba(14, 12, 12, 0.19);
+}
+
+/* Navbar */
+.navItems{
+    margin: 0px 57px;
+}
+
+#brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.navLink{
+    margin: 10px 37px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Raghav */
+
+#Raghav{
+    background-color: rgb(177, 169, 169);
+    text-align: center;
+}
+
+
+#raghavImg{
+    height: 348px;
+    border-radius: 24px;
+}
+
+
+.aboutRaghav{
+    margin: 58px 67px;
+    text-align: left;
+}
+
+.aboutRaghav h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+/* about */
+
+#About{
+    background-color: rgb(33,37,41);
+}
+
+.aboutContainer{
+    color: white;
+    padding: 77px 60px;
+}
+
+.aboutContainer h1{
+    padding: 17px 0px;
+    font-size: 3rem;
+}
+
+/* Resume */
+
+#resume{
+    background-color: rgb(177, 169, 169);
+}
+
+
+.cardTitle{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.cardYear{
+    background-color: black;
+    margin-top: 14px;
+    color: white;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+hr{
+    background-color: black; 
+    height: 1px; 
+    border: 1px;
+}
+
+.Progress{
+    padding: 10px;
+}
+
+
+
+
+
+/* Project */
+
+#project{
+    background-color: rgb(33,37,41);
+} 
+
+#heading{
+    padding-top: 37px;
+    color: white;
+    text-align: center;
+}
+
+#heading h1{
+    font-size: 2.5rem;
+}
+
+.tagsList{
+    display: flex;
+    list-style: none;
+    padding: 15px 5px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tagsList li{
+    padding: 14px 15px;
+    margin: 11px 5px;
+    background-color: rgb(177, 169, 169) ;
+    color: rgb(33,37,41);
+    border-radius: 10px;
+}
+
+.projectButton{
+    display: block;
+    margin: auto;
+    border-radius: 11px;
+    box-shadow:  0 8px 10px 0 rgba(10, 10, 10, 0.2), 0 6px 20px 0 rgba(14, 12, 12, 0.19);
+}
+
+
+
+
+/* contact */
+
+#contact{
+    background-color: rgb(177, 169, 169) ;
+}
+
+.contactContainer{
+    text-align: center;
+}
+
+.contactHeading{
+    padding: 28px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.icons{
+    padding: 23px 59px;
+    /* margin-bottom: 25px; */
+}
+
+.icons a{
+    color: rgb(78, 81, 83);
+}
+
+
+/* footer */
+
+#footer{
+    height: 50px;
+    background-color: rgb(33,37,41);
+}
+
+.footerContainer{
+    text-align: center;
+    color: white;
+    padding: 12px;
+}
+
+/* appButton */
+
+.fixedButton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    padding: 20px;
+}
+
+.roundedFixedBtn{
+  height: 60px;
+  line-height: 60px;  
+  width: 60px;  
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: rgb(78, 81, 83);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 787px){
+    .iconContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icons{
+        font-size: xx-large;
+        padding: 10px 19px;
+    }
+
+    .contactContainer {
+        padding: 14px;
+    }
+
+    .aboutRaghav h1{
+        font-size: 32px;
+    }
+
+    /* .mainCard{
+        display: flex;
+    } */
+
+}
+
