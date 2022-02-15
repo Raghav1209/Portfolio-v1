@@ -7,9 +7,9 @@ const fixedButton = () => {
     }
 
     return (
-        <a class="fixedButton" onClick={scrollToTop}>
+        <div class="fixedButton" onClick={scrollToTop}>
             <div class="roundedFixedBtn"><i class="fa fa-arrow-circle-up"></i></div>
-        </a>
+        </div>
     );
 }
 

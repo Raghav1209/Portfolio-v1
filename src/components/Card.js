@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Button, Col, Row } from "react-bootstrap";
-import Projects from "../constants";
+import { Card, Button } from "react-bootstrap";
+// import Projects from "../constants";
 
 const Cardd = (props) => {
 
