@@ -34,7 +34,7 @@ const Cardd = (props) => {
                                 })}
                             </ul>
                         </Card.Text>
-                        <a href={props.source} target="_blank" style={{textDecoration: "none"}}><Button onMouseOver={handleMouseover} onMouseOut={handleMousedown}
+                        <a href={props.source} target="_blank" rel="noreferrer" style={{textDecoration: "none"}}><Button onMouseOver={handleMouseover} onMouseOut={handleMousedown}
                             style={{ backgroundColor: isMouseon ? "rgb(72, 74, 77)" : "rgb(33,37,41)" }} className="projectButton">
                             Source
                         </Button></a>
