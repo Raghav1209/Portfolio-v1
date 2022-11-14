@@ -6,10 +6,12 @@ const About = () => {
         <div id="About">
             <Container className="aboutContainer">
                     <h1>About</h1>
-                    <h4>Currently pursuing my B.Tech (Electronics and Computer Engineering) from Thapar University, Patiala.
-                        Creative and Organized individual with understanding of Data Structure and Algorithms and beginner
-                        in Web Development. Looking to start the career as an entry-level developer in a dynamic environment
-                        that offers opportunities to grow and learn new things.</h4>
+                    <h4>Final year student at Thapar University, Patiala. Pursuing B.Tech in Electronics and Computer Engineering. 
+                        Creative and Organized individual with understanding of Data Structure and Algorithms and Web Development, I'm ready to work
+                        in a dynamic environment that offers opportunities to grow and learn new things. 
+                        {/* Exploring new technology and developing software solutions.  */}
+                        <br/>
+                        Upcoming SDE intern at Stonewain Systems, Chandigarh.</h4>
             </Container>
         </div>
     );

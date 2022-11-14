@@ -180,13 +180,13 @@ hr{
 }
 
 .contactHeading{
-    padding: 28px;
+    padding: 23px;
 }
 
 .iconContainer{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .icons{

@@ -12,14 +12,14 @@ const Education = () => {
                             <p className="cardYear">2019-2023</p>
                             <h5>Electronics and computer Engineering</h5>
                             <p>Thapar University (Patiala)</p>
-                            <span>CGPA: 8.51</span>
+                            <span>CGPA: 8.50</span>
                             {/* <hr /> */}
                             <p className="cardYear">2017-2019</p>
                             <h5>Senior Secendory</h5>
                             <p>Bhartiya Vidya Mandir (Ludhiana)</p>
                             <span>Percentage: 92%</span>
                             {/* <hr /> */}
-                            <p className="cardYear">2012-2017</p>
+                            <p className="cardYear">2005-2017</p>
                             <h5>High School</h5>
                             <p>Bhartiya Vidya Mandir (Ludhiana)</p>
                             <span>Percentage: 86.9%</span>

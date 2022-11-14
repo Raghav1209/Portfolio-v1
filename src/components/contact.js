@@ -31,12 +31,12 @@ const contact = (props) => {
                             <i class="fa fa-instagram"></i>
                         </a>
 
-                    </div>
-                    <div className="icons" >
+                     </div>
+                    {/* <div className="icons" >
                         <a href={props.facebook} target="_blank" rel="noreferrer">
                             <i class="fa fa-facebook"></i>
                         </a>
-                    </div>
+                    </div> */}
                 </Container>
             </Container>
         </div>
