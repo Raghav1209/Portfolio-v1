@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 
 const footer = () => {
 
-    const date = new Date();
+    // const date = new Date();
     // const year = date.getFullYear();
 
     return (
