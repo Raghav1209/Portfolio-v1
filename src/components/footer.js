@@ -9,7 +9,7 @@ const footer = () => {
     return (
         <footer id="footer">
             <Container className="footerContainer">
-                All rights reserved <i class="fa fa-copyright"></i>Raghav Ghai 2021 v1.1.
+                All rights reserved <i class="fa fa-copyright"></i> Raghav Ghai 2021 v1.1.
             </Container>
         </footer>
     );
